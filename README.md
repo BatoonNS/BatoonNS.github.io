@@ -1,6 +1,6 @@
 # Hello I'm Nathan Batten
 ## Welcome to my portfolio!
-[Profolio link](BatoonNS.github.io)
+[Profolio link](https://BatoonNS.github.io)
 
 ---
 
