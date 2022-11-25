@@ -1,5 +1,4 @@
-# Hello I'm Nathan Batten
-## Welcome to my portfolio!
+## Hello I'm Nathan Batten and welcome to my portfolio!
 [Profolio link](https://BatoonNS.github.io)
 
 ---
