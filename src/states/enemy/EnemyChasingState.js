@@ -1,4 +1,3 @@
-
 import Animation from "../../../lib/Animation.js";
 import { getRandomPositiveInteger } from "../../../lib/RandomNumberHelpers.js";
 import State from "../../../lib/State.js";
