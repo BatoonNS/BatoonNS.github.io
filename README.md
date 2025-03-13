@@ -4,4 +4,4 @@
 ---
 
 ### Description
-I Created this portfolio in order to show my work and progression in my developer career. I will be updating this portfolio with the future projects I am currently working on, finished projects and more. 
+I Created this portfolio in order to show my work and progression. I will be updating this portfolio with the future projects I am currently working on, finished projects and more. 

@@ -9,7 +9,7 @@
     <div class="container-fluid" style="flex-wrap:wrap;">
       <a id="name" class="navbar-brand" style="padding-left:35%; padding-right: 4rem; font-size:xx-large;" href="/index.html">Nathan Batten</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
-        aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarColor02" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarColor02" >
@@ -27,28 +27,31 @@
       </div>
     </div>
   </nav>
-  <div id="main" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-    <div class="d-flex" style="height: 1000px; padding-left: 25%;">
-      <div class="vr"></div>
-    </div>
+  <div id="main" style="display: flex; flex-wrap: wrap; justify-content: space-between;" >
 
-    <div id="pro" style="text-align: center;">
-      <h1 style=" margin: 3rem;">Upcoming Projects and News!</h1>
+
+    <div id="pro" style="display: flex; flex-direction: column; text-align: center; justify-content: center; align-items: center; width: 100%;">
+      <h1 style=" margin: 3rem;">Upcoming Projects</h1>
       <hr>
       <div id="soon" style="display: inline-block;">
-        <div id="proj-container" style="background-color: #565656; border-radius: 1rem;  padding: 0.5rem;">
-          <img src="./assets/images/StockPredictions.png" alt="" width="400px" style="border-radius: 1rem;">
-          <h3 style="margin-top:0.5rem">Predicting Stocks using AI</h3>
-          <h6>A program which will be able to predict stock prices<br> using artificial intelligence via Neptune.AI</h6>
+        <div id="proj-container" style=" background-color: #565656; border-radius: 1rem;  padding: 0.5rem; margin-bottom: 2rem">
+          <img src="./imgs/PB-Logo2.png" alt="" width="400px" style="border-radius: 1rem;">
+          <h3>PowerBuilder</h3>
+          <h6>A workout tracking application created built using react
+            <br>native for cross-platform development. Leveraging firebase 
+            <br>for authentication and FireStore NoSQL Cloud storage
+          </h6>
         </div>
       </div>
     </div>
 
-    <div class="d-flex" style="height:1000px; padding-right: 25%;">
-      <div class="vr"></div>
-    </div>
+    <div class="d-none d-lg-flex vh-100 position-fixed" style="left: 25%; width: 1px; background-color: #868e96;"></div>
+
+    <div class="d-none d-lg-flex vh-100 position-fixed" style="right: 25%; width: 1px; background-color: #868e96;"></div>
 
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
